@@ -458,6 +458,8 @@ button {
 }
 
 .btn {
+  width: 200px;
+  height: 50px;
   display: flex;
   color: var(--white-text);
   font-family: inherit;
@@ -466,12 +468,13 @@ button {
   line-height: 30px;
   outline: none;
   border: none;
+  justify-content: center;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   letter-spacing: 0.06em;
   background-color: var(--blue-text);
-  padding: 10px 32px;
+  padding: 10px 0px;
 
   transition-property: transform;
   transition-duration: 250ms;
@@ -876,12 +879,13 @@ button {
   transition-timing-function: var(--timing-function);
 }
 
-.modal .btn {
+.modal-btn {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+  
   margin-top: 30px;
+  background-color: var(--button-bg-active);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 svg.button-icon {
