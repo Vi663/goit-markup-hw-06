@@ -672,14 +672,23 @@ button {
 }
 
 .form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 528px;
+  height: 581px;
   padding: 40px;
 }
 
 .call-back-form {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .form-header {
@@ -769,7 +778,6 @@ button {
   border-radius: 4px;
   margin: 0;
   padding: 12px 16px;
-  margin-bottom: 20px;
 }
 
 .form-label {
