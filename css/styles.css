@@ -543,7 +543,7 @@ button {
 .signup-input:focus {
   border: 1px solid var(--button-bg-active);
   outline: none;
-  color:var(--blue-text);
+  color: var(--blue-text);
 }
 
 .signup-input::placeholder {
@@ -868,6 +868,7 @@ button {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
+
 /* Checked */
 .check-input:checked + .check-box {
   background-color: var(--button-bg-active);
