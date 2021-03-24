@@ -771,6 +771,7 @@ button {
 
 .form-textarea {
   resize: none;
+  height: 120px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
