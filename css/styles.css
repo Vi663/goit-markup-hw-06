@@ -819,6 +819,7 @@ button {
 .check-box-label a {
   text-decoration: underline;
   color: var(--blue-text);
+  padding-left: 4px;
 }
 
 .check-box-label {
